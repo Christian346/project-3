@@ -7,7 +7,8 @@
 
 body{
     background-color:blue;
-    font-family: 'Spartan', sans-serif;    
+    font-family: 'Spartan', sans-serif;  
+    
 }
 //usual desktop 1440 x 1024
 
@@ -20,37 +21,95 @@ body{
     background-image: url(/images/bg-pattern-top-desktop.svg),url(/images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: left top, right bottom;
+    background-size: 44vw,85vw;
     display: flex;
     flex-direction: column;
    
-
-    
     &__block-1{
+        
         height:30vh;
         width:35vw;
-        background-color:red;
+        background-color:none;
         position:relative;
         top:13vh;
-        left:15vh;
+        left:10vw;
+        
+        .container__block-1-p1{
+            
+            font-size:1.15vw;
+            line-height: 1.8vw;
+            margin-top: 3vh;
+            color:$lightpurple;
+            
+        }
 
     }
+
     &__block-2{
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
         height:30vh;
         width:35vw;
         background-color:lightblue;
         position: relative;
         left:55vw;
         bottom:15vh;
+
+        .container__review1{
+        background-color:blue;
+        padding:1vw;
+        width:32vw;
+        display: flex;
+        position: relative;
+        top: 5vh;
+        }
+        .container__review2{
+        background-color:blue;
+        padding:1vw;
+        width:32vw;
+        display: flex;
+        position: relative;
+        left:5vw;
+        }
+          .container__review3{
+            background-color:blue;
+            width:32vw;
+            padding:1vw;
+            display:flex;
+            position: relative;
+            bottom:5vh;
+            left:10vw;
+          }
+        .container__images{
+            background-image: url(/images/icon-star.svg);
+            background-repeat:space;
+            height:1.7vh;
+            width:7vw;
+            background-color: red;
+            margin-right:2vw;
+            margin-left:2vw;
+            
+        }
     }
+
+
+
     &__big-block-3{
         display: flex;
         justify-content: center;
+        align-items: center;
+        
+
         height:40vh;
         width:80vw;
         background-color:lightgreen;
         position:relative;
-        bottom:5vh;
+        bottom:13vh;
         left:10vw
+
         
     }
 
