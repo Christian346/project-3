@@ -76,7 +76,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: white;
-  background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: left top, right bottom;
   background-size: 45vw,90vw;
@@ -120,7 +120,7 @@ body {
 .container__block-2 .container__review1 {
   background-color: #f7f2f7;
   border-radius: 0.5vw;
-  padding: 1.5vw;
+  padding: 1.5vh;
   width: 32vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,7 +132,7 @@ body {
 .container__block-2 .container__review2 {
   background-color: #f7f2f7;
   border-radius: 0.5vw;
-  padding: 1.5vw;
+  padding: 1.5vh;
   width: 32vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,7 +145,7 @@ body {
   background-color: #f7f2f7;
   border-radius: 0.5vw;
   width: 32vw;
-  padding: 1.5vw;
+  padding: 1.5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
