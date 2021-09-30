@@ -15,6 +15,35 @@ h1 {
     color:$lightpurple;
     
 }
+
+.inner-pb-texts{
+    margin-top: 3.7vh;
+}
 .container__up-inner-pb-text{
-    
+    background-color:none;
+    color:$white;
+    font-size: 1em;
+    font-weight: bold;
+    height:2vh;
+    position: relative;
+    margin-bottom: 0.2vh;
+   
+
+}
+.container__low-inner-pb-text{
+    background-color:none;
+    color:$lightpurple;
+    font-size: 0.95em;
+    font-weight: bold;
+    height:2vh;
+}
+.lower-pb-text{
+   
+    background-color:none;
+    color:$white;
+    height: 12vh;
+    margin:1.5vw;
+    font-size: 0.91em;
+    line-height: 2.5vh;
+    overflow-x: auto;
 }

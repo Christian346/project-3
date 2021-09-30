@@ -16,6 +16,16 @@ body{
     height: auto;
 }
 
+.person-img{
+    border-radius: 50vw;
+    height: 3.5vw;
+    width: 3.5vw;
+    margin-top:3.2vh;
+    margin-left:2.7vh;
+    margin-right:2.7vh;
+    margin-bottom: 2.5vh;
+}
+
 
 .container{
     
@@ -112,8 +122,8 @@ body{
         bottom:10vh;
         left:10vw
 
-        
     }
+    
     &__p-b-1{
         background-color: $magenta;
         height: 28vh;
@@ -122,6 +132,7 @@ body{
         position: relative;
         bottom:2vh;
     }
+
     &__p-b-2{
         background-color: $magenta;
         height: 28vh;
@@ -141,11 +152,12 @@ body{
     }
     //big container block3
     .container__upper-person-text-img{
+        background-color:none;
+        display: flex;
+        
 
     }
-    .container__low-inner-pb-text{
-
-    }
+    
 
 
 }

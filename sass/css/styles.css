@@ -15,6 +15,38 @@ h1 {
   color: #937b92;
 }
 
+.inner-pb-texts {
+  margin-top: 3.7vh;
+}
+
+.container__up-inner-pb-text {
+  background-color: none;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  height: 2vh;
+  position: relative;
+  margin-bottom: 0.2vh;
+}
+
+.container__low-inner-pb-text {
+  background-color: none;
+  color: #937b92;
+  font-size: 0.95em;
+  font-weight: bold;
+  height: 2vh;
+}
+
+.lower-pb-text {
+  background-color: none;
+  color: white;
+  height: 12vh;
+  margin: 1.5vw;
+  font-size: 0.91em;
+  line-height: 2.5vh;
+  overflow-x: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +60,16 @@ body {
 .img {
   width: 15%;
   height: auto;
+}
+
+.person-img {
+  border-radius: 50vw;
+  height: 3.5vw;
+  width: 3.5vw;
+  margin-top: 3.2vh;
+  margin-left: 2.7vh;
+  margin-right: 2.7vh;
+  margin-bottom: 2.5vh;
 }
 
 .container {
@@ -167,5 +209,12 @@ body {
   margin-left: 2.5vw;
   position: relative;
   top: 2vh;
+}
+
+.container .container__upper-person-text-img {
+  background-color: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=styles.css.map */
