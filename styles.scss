@@ -23,6 +23,7 @@ body{
     
 }
 
+
 .container{
 
     height: 100vh;
@@ -144,9 +145,8 @@ body{
     }
    
 }
-
+//cel media
 @media screen and (max-width:416px) {
-    
     
     .container{
         
@@ -155,7 +155,13 @@ body{
         margin-left:3.5vw;
         background-color:none;
         flex-direction: column;
-        background-size: 93vw 45vw,80vw;
+        background-size: 93vw 45vw,80vw 95vw;
+       
+        .content2::before{
+            content: "\a";
+            white-space:pre;
+
+        }
         
        
         &__block-1{
@@ -165,19 +171,24 @@ body{
             width:100vw;
             top:8vh;
             left:0vw;
+
             .container__block-1-h1{
                 font-size: 8vw;
                 line-height:7.5vw;
             }
+
+           
+
+            
             .container__block-1-p1{  
-              
+            
                 background-color:none;
-                height:18vw;
-                width:80vw;      
-                font-size:2.7vw;
+                height:19vw;
+                width:77vw;      
+                font-size:3vw;
                 line-height: 4vw;
-                margin-top: 2vh;
-                margin-left:8vw;
+                margin-top: 3vh;
+                margin-left:10vw;
                 color:$lightpurple;  
             }
            
@@ -231,8 +242,8 @@ body{
             .container__imagesstars{
                 background-color:none;
                 height:3vh;
-                width:34vw;
-                margin-left:22vw;
+                width:24vw;
+                margin-left:24vw;
                 margin-bottom:0vw;
                 position: relative;
                 top:0.5vh;
@@ -245,7 +256,7 @@ body{
                 color:$magenta; 
                 margin-left:16vw;
                 position: relative;
-                top:4vw;
+                top:2vw;
             }
         }
         &__big-block-3{
@@ -265,7 +276,7 @@ body{
         &__p-b-1{
             background-color:$magenta;
             height: 30vh;
-            width: 79vw;
+            width: 76.5vw;
             border-radius: 2vw;   
             position: relative;
             bottom:10vh;
@@ -274,7 +285,7 @@ body{
         &__p-b-2{     
             background-color: none;
             height: 30vh;
-            width: 79vw;
+            width: 76.5vw;
             border-radius: 2vw;
             margin-left:0vw; 
             position: relative; 
@@ -284,7 +295,7 @@ body{
             background-color:$magenta;//$magenta;
             border-radius: 2vw;
             height: 30vh;
-            width: 79vw;
+            width: 76.5vw;
             margin-left:0vw;
             position: relative;
             top:-6vh;
@@ -327,12 +338,20 @@ body{
             color:$white;
             height: auto;
             margin:7vw;
-            font-size: 3vw;
-            line-height: 6vw;
+            font-size: 2.5vw;
+            line-height: 5vw;
             overflow-x: auto;
+            
         }
     }    
       
     
 }
 
+@media only screen and (min-width: 418px) and (max-width: 2000px) {
+	// do something in this width range.
+    .content1::before{
+        content: "\a";
+        white-space:pre;
+    }
+}
