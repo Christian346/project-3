@@ -25,6 +25,7 @@
 .container__low-inner-pb-text {
   color: #ee68a4;
   font-size: 0.5rem;
+  font-weight: bold;
 }
 
 .lower-pb-text {
@@ -326,7 +327,6 @@ body {
     width: 85vw;
   }
   .container__p-b-1 {
-    background-color: #502050;
     height: 34vh;
     width: 74vw;
     border-radius: 2vw;
@@ -334,7 +334,6 @@ body {
     margin-left: 2em;
   }
   .container__p-b-2 {
-    background-color: #502050;
     height: 34vh;
     width: 74vw;
     border-radius: 2vw;
@@ -343,7 +342,6 @@ body {
     margin-left: 2em;
   }
   .container__p-b-3 {
-    background-color: #502050;
     border-radius: 2vw;
     height: 34vh;
     width: 74vw;
@@ -351,44 +349,16 @@ body {
     margin-top: 1em;
     margin-left: 2em;
   }
-  .container .container__upper-person-text-img {
-    background-color: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: 6vw;
-    margin-top: 6vw;
-  }
-  .container .person-img {
-    border-radius: 50vw;
-    height: 9vw;
-    width: 9vw;
-  }
-  .container .inner-pb-texts {
-    margin-left: 5vw;
-    margin-top: 2vw;
-  }
   .container .container__up-inner-pb-text {
-    background-color: none;
-    color: white;
-    font-size: 2vw;
-    font-weight: bold;
-    margin-bottom: 1vw;
+    font-size: 0.8rem;
   }
   .container .container__low-inner-pb-text {
-    background-color: none;
-    color: #ee68a4;
-    font-size: 2vw;
-    font-weight: bold;
+    font-size: 0.8rem;
   }
   .container .lower-pb-text {
-    background-color: none;
-    color: white;
-    height: auto;
-    margin: 7vw;
-    font-size: 2.5vw;
-    line-height: 5vw;
-    overflow-x: auto;
+    margin-top: 3em;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
   }
 }
 
