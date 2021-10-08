@@ -1,15 +1,17 @@
-@mixin medlargetablet() {
-    
+@mixin nesthub(){
+    body{
+        background-color: red;
+    }
     .person-img{
         border-radius: 50%;
-        max-width:25%;
+        max-width:17%;
         height: auto;
+        
     }
-
     .container{ 
-        height: 102vh;
-        width:101vw;
-        margin-top:0em;
+        height: 100vh; 
+        width:100%;
+        margin-top: 0em;
     
             .big-container-1{
             
@@ -27,14 +29,14 @@
             margin-left: 2em;
            
            .container__block-1-h1{
-            font-size:4.8vw;//
-            line-height: 7vw;//
+            font-size:4vw;//
+            line-height: 4vw;//
         }
 
         .container__block-1-p1{
         margin-top:1em;//
-        font-size: 1.3rem;//
-        line-height: 1.7rem;//
+        font-size: 0.89rem;//
+        line-height: 1.5rem;//
         }
 
         }
@@ -42,12 +44,12 @@
         &__block-2{
             
        
-        justify-content:center;//
+        justify-content: space-between;//
             background-color:none;//
-            height: 30vh;//
+            height: 42vh;//
             width:42vw;//
-            margin-bottom: 3em;
-
+           
+    
             .container__review1{
             height: 5vh;//
             }
@@ -56,13 +58,12 @@
             }
               .container__review3{ 
                 height: 5vh;//
-               
               }
 
             .container__imagesstars{
                 height:3vh;
                 width:9vw;
-                margin-top: 1.5em;
+                margin-top: 0.3em;
                 margin-left:1em;
                 margin-right:2em;//
                 
@@ -70,8 +71,8 @@
             .container__block-2-p2{
                 background-color: none;
                 width:15vw;//
-                margin-top: 1em;//
-                font-size:1.8vw;//
+                margin-top: 0.3em;//
+                font-size:1.2vw;//
                 white-space:normal;//
             }
         }
@@ -109,26 +110,27 @@
            
         }
         //big container block3
+        .container__upper-person-text-img{
+            margin-top:0.4em;
+        }  
         .inner-pb-texts{
             margin-left:1.5em;
             margin-top: 0.6em;
             }
             .container__up-inner-pb-text{
             font-size:1rem;
-            margin-bottom: 0.5em;
+            margin-bottom: 0.2em;
             }
             
             .container__low-inner-pb-text{
-              font-size:1rem;
+              font-size:0.9rem;
             }
             .lower-pb-text{
                 color:$white;
-                margin:2em 1em 2em 2em;
-                margin-top: 1em;
-                font-size: 1.1rem;
-                line-height: 2rem;
+                margin:2em 1em 3em 2em;
+                margin-top: 0.5em;
+                font-size: 0.72em;
+                line-height: 1.6rem;
             }
     }
-
-
 }

@@ -5,7 +5,7 @@
 @import "./mdtablet";
 @import "./extrasmallcell";
 @import "./medlargetablet";
-
+@import "./nesthub";
 *{
     margin:0;
     padding:0;
@@ -188,10 +188,16 @@ body{
 @media screen and (min-width:601px) and (max-width:990px){
     @include mdtablet();
 }
-
 //medium lg device query ipad pro
 @media screen and (min-width:991px) and (max-width:1100px){
     @include medlargetablet();
 }
+//nest hub res
+@media screen and (max-height:601px){
+    @media screen and (min-width:991px) and (max-width:1100px){
+        @include nesthub();
+    }    
+}
+
 
 

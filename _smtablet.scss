@@ -1,7 +1,7 @@
 @mixin smtablet() {
     .container{
         
-      
+        height:200vh;
         width:100vw;
         margin:0 auto;
         background-color:none;
@@ -59,7 +59,7 @@
             .container__imagesstars{
                 background-color:none;
                 height:3vh;
-                width:25vw;
+                width:22vw;
                 margin-left:24vw;
                 margin-bottom:0vw;
                 position: relative;
