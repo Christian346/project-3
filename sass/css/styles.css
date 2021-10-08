@@ -18,13 +18,13 @@
 
 .container__up-inner-pb-text {
   color: white;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   margin-bottom: 0.3em;
 }
 
 .container__low-inner-pb-text {
   color: #ee68a4;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: bold;
 }
 
@@ -32,7 +32,7 @@
   color: white;
   margin: 2em 1em 2em 3em;
   margin-top: 1em;
-  font-size: 0.55rem;
+  font-size: 0.64rem;
   line-height: 1.2rem;
 }
 
@@ -57,15 +57,14 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  max-width: 1500px;
+  max-width: 1600px;
   background-color: white;
   background-image: url("/images/bg-pattern-top-desktop.svg"), url("/images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: left top, right bottom;
   background-size: 45% 50%,90% 85%;
-  margin: 0 auto;
   margin-top: 0em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -848,14 +847,14 @@ body {
   .container__block-2 .container__imagesstars {
     height: 3vh;
     width: 9vw;
-    margin-top: 1.5em;
+    margin-top: 1.4em;
     margin-left: 1em;
     margin-right: 2em;
   }
   .container__block-2 .container__block-2-p2 {
     background-color: none;
     width: 15vw;
-    margin-top: 1em;
+    margin-top: 0.5em;
     font-size: 1.8vw;
     white-space: normal;
   }
