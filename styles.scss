@@ -1,6 +1,10 @@
 @import "./variables";
 @import"./fonts";
 @import"./mobile";
+@import "./smtablet";
+@import "./mdtablet";
+@import "./extrasmallcell";
+@import "./medlargetablet";
 
 *{
     margin:0;
@@ -13,7 +17,7 @@ body{
 }
 //usual desktop 1440 x 1024
 .img{
-    max-width: 12%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -34,6 +38,7 @@ body{
     background-position: left top, right bottom;
     background-size: 45% 50%,90% 85%;
     margin:0 auto;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
    
@@ -152,179 +157,37 @@ body{
         display: flex;
         margin-left:2em;
         margin-top:2em;
-    }
-   
+    }  
 }
 
-
-
-
-//cel media
-@media screen and (max-width:416px) {
-    .content2::before{
-        content: "\a";
-        white-space:pre;
-    }
-    
-    .container{
-        
-      
-        width:100vw;
-        margin:0 auto;
-        background-color:none;
-        flex-direction: column;
-        background-size: 93vw 45vw,80vw 95vw;
-       
-        
-        .big-container-1{
-            display: flex;
-            flex-direction: column;
-            margin-top:4.5em;
-           }
-       
-        &__block-1{
-            background-color:none;
-            text-align: center;
-            width:85vw;
-            margin:0 auto;
-            
-    
-            .container__block-1-h1{
-                font-size: 2rem;
-                line-height:1.9rem;
-                margin: 0 auto;
-            }
-
-           
-            .container__block-1-p1{  
-                background-color:none;   
-                font-size:0.8rem;
-                line-height: 1.5rem;
-                margin-top:1em;
-        
-            }
-           
-        }
-        
-    
-        &__block-2{
-            
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin:0 auto;
-        margin-top: 1em;
-        background-color:none;
-        height: 30vh;
-        width:85vw;
-            
-    
-            .container__review1{
-            background-color:$lightgray;
-            border-radius: 2vw;
-            flex-direction: column;
-            margin:0 auto;
-            }
-            .container__review2{
-            background-color:$lightgray;
-            border-radius: 2vw;
-            margin: 0 auto;
-            
-            flex-direction: column;
-           
-            }
-              .container__review3{
-                background-color:$lightgray;
-                border-radius: 2vw;
-                flex-direction: column;
-                margin: 0 auto;
-            
-              }
-            .container__imagesstars{
-                background-color:none;
-                height:3vh;
-                width:25vw;
-                margin-left:24vw;
-                margin-bottom:0vw;
-                position: relative;
-                top:0.5vh;
-                
-            }
-            .container__block-2-p2{
-                background-color:none;
-                width: 48vw;
-                font-size:2.8vw;
-                color:$magenta; 
-                margin-left:16vw;
-                position: relative;
-                top:2vw;
-            }
-        }
-        &__big-block-3{
-            background-color:none;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center; 
-            width:85vw; 
-        }
-        
-        &__p-b-1{
-            
-           height: 34vh;
-            width: 74vw;
-            border-radius: 2vw;  
-            margin: 0 auto;
-            margin-left:2em;
-            
-        }
-    
-        &__p-b-2{     
-          
-            height: 34vh;
-            width: 74vw;
-            border-radius: 2vw;
-            margin:0 auto;
-            margin-top: 1em;
-            margin-left:2em;
-        }
-        &__p-b-3{
-           
-            border-radius: 2vw;
-            height: 34vh;
-            width:74vw;
-            margin:0 auto;
-            margin-top:1em;
-            margin-left:2em;
-            
-        }
-        //big container block3
-    
-        
-        
-        .container__up-inner-pb-text{
-            font-size: 0.8rem;
-        }
-          
-        
-        .container__low-inner-pb-text{
-          
-            font-size: 0.8rem;
-             
-        }
-        .lower-pb-text{
-            margin-top:3em;
-            font-size:0.7rem;
-            line-height: 1.3rem;
-             
-        }
-    }    
-          
-}
-
-@media only screen and (min-width: 418px) and (max-width: 2000px) {
+//medium to big line breaks
+@media screen and (min-width: 417px) and (max-width: 2000px) {
 	// do something in this width range.
     .content1::before{
         content: "\a";
         white-space:pre;
     }
 }
+//extra small cell media
+@media screen and (max-width:370px) {    
+   
+    }
+
+//cel media
+@media screen and (max-width:417px) {    
+@include extrasmallcell();// cell media mixin
+}
+//medium sm device query
+@media screen and (min-width:418px) and (max-width:600px) { 
+    @include smtablet();
+}
+//medium med device quey
+@media screen and (min-width:601px) and (max-width:990px){
+    @include mdtablet();
+}
+//medium lg device query ipad pro
+@media screen and (min-width:991px) and (max-width:1100px){
+
+}
+
+
