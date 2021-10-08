@@ -223,6 +223,7 @@ body {
     white-space: pre;
   }
   .container {
+    height: 200vh;
     width: 100vw;
     margin: 0 auto;
     background-color: none;
@@ -272,9 +273,10 @@ body {
             justify-content: space-between;
     margin: 0 auto;
     margin-top: 1em;
+    margin-bottom: 2em;
     background-color: none;
     height: 30vh;
-    width: 85vw;
+    width: 87vw;
   }
   .container__block-2 .container__review1 {
     background-color: #f7f2f7;
@@ -309,10 +311,8 @@ body {
     background-color: none;
     height: 3vh;
     width: 25vw;
-    margin-left: 24vw;
+    margin-left: 20vw;
     margin-bottom: 0vw;
-    position: relative;
-    top: 0.5vh;
   }
   .container__block-2 .container__block-2-p2 {
     background-color: none;
@@ -320,8 +320,7 @@ body {
     font-size: 2.8vw;
     color: #502050;
     margin-left: 16vw;
-    position: relative;
-    top: 2vw;
+    margin-top: 0.5em;
   }
   .container__big-block-3 {
     background-color: none;
@@ -339,26 +338,26 @@ body {
   }
   .container__p-b-1 {
     height: 34vh;
-    width: 74vw;
+    width: 79vw;
     border-radius: 2vw;
     margin: 0 auto;
-    margin-left: 2em;
+    margin-left: 1.3em;
   }
   .container__p-b-2 {
     height: 34vh;
-    width: 74vw;
+    width: 79vw;
     border-radius: 2vw;
     margin: 0 auto;
     margin-top: 1em;
-    margin-left: 2em;
+    margin-left: 1.3em;
   }
   .container__p-b-3 {
     border-radius: 2vw;
     height: 34vh;
-    width: 74vw;
+    width: 79vw;
     margin: 0 auto;
     margin-top: 1em;
-    margin-left: 2em;
+    margin-left: 1.3em;
   }
   .container .container__up-inner-pb-text {
     font-size: 0.8rem;
@@ -379,6 +378,7 @@ body {
     white-space: pre;
   }
   .container {
+    height: 200vh;
     width: 100vw;
     margin: 0 auto;
     background-color: none;

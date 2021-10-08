@@ -6,7 +6,7 @@
     
     .container{
         
-      
+       height:200vh;
         width:100vw;
         margin:0 auto;
         background-color:none;
@@ -39,6 +39,7 @@
                 font-size:0.6rem;
                 line-height: 1rem;
                 margin-top:1em;
+                
         
             }
            
@@ -52,9 +53,10 @@
         justify-content: space-between;
         margin:0 auto;
         margin-top: 1em;
+        margin-bottom:2em;
         background-color:none;
         height: 30vh;
-        width:85vw;
+        width:87vw;
             
     
             .container__review1{
@@ -78,17 +80,16 @@
                 flex-direction: column;
                 margin: 0 auto;
                 margin-top:0.5em;
+                
             
               }
             .container__imagesstars{
                 background-color:none;
                 height:3vh;
                 width:25vw;
-                margin-left:24vw;
+                margin-left:20vw;
                 margin-bottom:0vw;
-                position: relative;
-                top:0.5vh;
-                
+                   
             }
             .container__block-2-p2{
                 background-color:none;
@@ -96,8 +97,9 @@
                 font-size:2.8vw;
                 color:$magenta; 
                 margin-left:16vw;
-                position: relative;
-                top:2vw;
+                margin-top:0.5em;
+                
+                
             }
         }
         &__big-block-3{
@@ -111,30 +113,30 @@
         &__p-b-1{
             
            height: 34vh;
-            width: 74vw;
+            width: 79vw;
             border-radius: 2vw;  
             margin: 0 auto;
-            margin-left:2em;
+            margin-left:1.3em;
             
         }
     
         &__p-b-2{     
           
             height: 34vh;
-            width: 74vw;
+            width: 79vw;
             border-radius: 2vw;
             margin:0 auto;
             margin-top: 1em;
-            margin-left:2em;
+            margin-left:1.3em;
         }
         &__p-b-3{
            
             border-radius: 2vw;
             height: 34vh;
-            width:74vw;
+            width:79vw;
             margin:0 auto;
             margin-top:1em;
-            margin-left:2em;
+            margin-left:1.3em;
             
         }
         //big container block3
