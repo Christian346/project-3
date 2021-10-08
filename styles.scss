@@ -30,7 +30,8 @@ body{
 .container{ 
 
    
-    width:97%;
+    width:100%;
+    height: 100vh;
     max-width:1500px;//limit size
     background-color:$white;
     background-image: url('/images/bg-pattern-top-desktop.svg'),url('/images/bg-pattern-bottom-desktop.svg');
@@ -38,7 +39,7 @@ body{
     background-position: left top, right bottom;
     background-size: 45% 50%,90% 85%;
     margin:0 auto;
-    margin-top: 1em;
+    margin-top: 0em;
     display: flex;
     flex-direction: column;
    
@@ -170,24 +171,27 @@ body{
 }
 //extra small cell media
 @media screen and (max-width:370px) {    
-   
+    @include extrasmallcell();
     }
 
 //cel media
-@media screen and (max-width:417px) {    
-@include extrasmallcell();// cell media mixin
+@media screen and (min-width:371px)and(max-width:417px) {    
+   @include mobile();// cell media mixin
 }
+
 //medium sm device query
-@media screen and (min-width:418px) and (max-width:600px) { 
+@media screen and (min-width:417px) and (max-width:600px) { 
     @include smtablet();
 }
+
 //medium med device quey
 @media screen and (min-width:601px) and (max-width:990px){
     @include mdtablet();
 }
+
 //medium lg device query ipad pro
 @media screen and (min-width:991px) and (max-width:1100px){
-
+    @include medlargetablet();
 }
 
 
