@@ -6,6 +6,8 @@
 @import "./extrasmallcell";
 @import "./medlargetablet";
 @import "./nesthub";
+@import "./landscape";
+
 *{
     margin:0;
     padding:0;
@@ -168,18 +170,19 @@ body{
     }
 }
 //extra small cell media
-@media screen and (max-width:370px) {    
+@media screen and (max-width:370px) {  
+   
     @include extrasmallcell();
     }
 
 //cel media
-@media screen and (min-width:371px)and(max-width:417px) {    
+@media screen and (min-width:371px)and(max-width:417px) {   
    @include mobile();// cell media mixin
 }
 
 //medium sm device query
 @media screen and (min-width:417px) and (max-width:600px) { 
-    @include smtablet();
+    @include smtablet(); 
 }
 
 //medium med device quey
@@ -197,5 +200,11 @@ body{
     }    
 }
 
+
+@media screen and (min-width:320px)and(max-width:900px)and(orientation: landscape){
+    //switch to landscape
+@include landscape();
+    
+}
 
 
